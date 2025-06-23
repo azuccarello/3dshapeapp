@@ -1,0 +1,15 @@
+body {
+  margin: 0;
+  background-color: black;
+  font-family: sans-serif;
+  color: white;
+}
+
+input[type="range"] {
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 1rem;
+}
