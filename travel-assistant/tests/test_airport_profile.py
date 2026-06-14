@@ -13,3 +13,8 @@ def test_load_lax_profile():
 
 def test_load_unknown_airport_returns_none():
     assert load_airport_profile("ZZZ") is None
+
+
+def test_pick_without_book_ahead_defaults_to_none():
+    profile = load_airport_profile("LAX")
+    assert all(p.book_ahead is None for p in profile.activities + profile.coffee + profile.food)

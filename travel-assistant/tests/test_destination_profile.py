@@ -14,3 +14,10 @@ def test_load_waikiki_profile():
 
 def test_load_unknown_destination_returns_none():
     assert load_destination_profile("nowhere") is None
+
+
+def test_diamond_head_has_book_ahead_note():
+    profile = load_destination_profile("waikiki")
+    diamond_head = next(p for p in profile.activities if "Diamond Head" in p.name)
+    assert diamond_head.book_ahead is not None
+    assert "30 days" in diamond_head.book_ahead

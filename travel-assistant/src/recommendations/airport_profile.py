@@ -13,6 +13,7 @@ class Pick:
     location: str
     why: str
     link: str | None = None
+    book_ahead: str | None = None
 
 
 @dataclass
