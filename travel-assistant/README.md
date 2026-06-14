@@ -7,11 +7,13 @@ itinerary-aware recommendations for layovers and final destinations, researched 
 
 Built incrementally, with a check-in after each phase:
 
-1. [ ] Gmail itinerary parser
-2. [ ] Calendar cross-reference
+1. [x] Gmail itinerary parser
+2. [x] Calendar cross-reference
 3. [ ] Recommendation engine (layovers + destinations)
 4. [ ] SMS delivery (Twilio)
 5. [ ] Scheduling / polling runner
+
+Run tests with `python -m pytest` from this directory.
 
 ## Project layout
 
