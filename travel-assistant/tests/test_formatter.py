@@ -81,3 +81,17 @@ def test_destination_sms_splits_food_and_activities():
     assert "Diamond Head Summit Trail" in things_to_do
     assert "Kuhio Beach Hula Show" in things_to_do
     assert "Knots Coffee Roasters" not in things_to_do
+
+
+def test_destination_sms_includes_every_pick_and_fits_twilio_limit():
+    profile = load_destination_profile("waikiki")
+    recommendation = build_destination_recommendation(profile)
+
+    messages = format_destination_sms(recommendation)
+    combined = "\n".join(messages)
+
+    for category_pick in recommendation.picks:
+        assert category_pick.pick.name in combined
+
+    for message in messages:
+        assert len(message) <= 1600

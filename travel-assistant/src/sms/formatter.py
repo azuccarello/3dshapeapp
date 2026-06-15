@@ -21,6 +21,11 @@ TIER_PHRASES = {
     LayoverTier.EXTENDED: "good chunk of time",
 }
 
+# Destination messages cover every pick in the profile, so each one is
+# trimmed to keep both messages under Twilio's 1600-character SMS limit.
+MAX_LOCATION_LENGTH = 60
+MAX_WHY_LENGTH = 100
+
 
 def format_layover_sms(recommendation: LayoverRecommendation) -> list[str]:
     """Build the (single) SMS for a layover stop."""
@@ -62,15 +67,19 @@ def _build_message(intro: str, by_category: dict[str, list[CategoryPick]], categ
     lines = [intro, ""]
     for category in categories:
         for category_pick in by_category.get(category, []):
-            lines.append(_format_pick(category_pick))
+            lines.append(_format_pick(category_pick, compact=True))
             lines.append("")
     return _join(lines)
 
 
-def _format_pick(category_pick: CategoryPick) -> str:
+def _format_pick(category_pick: CategoryPick, compact: bool = False) -> str:
     pick = category_pick.pick
     emoji = CATEGORY_EMOJI.get(category_pick.category, "")
-    parts = [f"{emoji} {pick.name} ({pick.location})", _first_sentence(pick.why)]
+    location = _short_location(pick.location) if compact else pick.location
+    why = _first_sentence(pick.why)
+    if compact:
+        why = _truncate(why, MAX_WHY_LENGTH)
+    parts = [f"{emoji} {pick.name} ({location})", why]
     if pick.link:
         parts.append(pick.link)
     return "\n".join(parts)
@@ -79,6 +88,16 @@ def _format_pick(category_pick: CategoryPick) -> str:
 def _first_sentence(text: str) -> str:
     sentence = text.split(". ")[0].rstrip(".")
     return f"{sentence}."
+
+
+def _short_location(location: str) -> str:
+    return _truncate(location.split(" -- ")[0], MAX_LOCATION_LENGTH)
+
+
+def _truncate(text: str, max_length: int) -> str:
+    if len(text) <= max_length:
+        return text
+    return f"{text[:max_length].rsplit(' ', 1)[0]}..."
 
 
 def _format_duration(minutes: int) -> str:
