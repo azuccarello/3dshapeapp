@@ -1,0 +1,26 @@
+{
+  "id": "18f2a3b4c5d6e7f8",
+  "threadId": "18f2a3b4c5d6e7f8",
+  "payload": {
+    "mimeType": "multipart/mixed",
+    "parts": [
+      {
+        "mimeType": "multipart/alternative",
+        "parts": [
+          {
+            "mimeType": "text/plain",
+            "body": {
+              "data": "VW5pdGVkIEFpcmxpbmVzIC0gVHJpcCBDb25maXJtYXRpb24KCkNvbmZpcm1hdGlvbiBOdW1iZXI6IEFCMTJDRAoKUGFzc2VuZ2VyOiBaVUNDQVJFTExPL0FESQoKRmxpZ2h0IDIxMjYKVHVlLCBBdWcgMTMsIDIwMjYKRGVwYXJ0IFJlZG1vbmQvQmVuZCAoUkRNKSA5OjM3IEFNCkFycml2ZSBMb3MgQW5nZWxlcyAoTEFYKSAxMTo0OCBBTQoKRmxpZ2h0IDExNzAKVHVlLCBBdWcgMTMsIDIwMjYKRGVwYXJ0IExvcyBBbmdlbGVzIChMQVgpIDU6MDUgUE0KQXJyaXZlIEhvbm9sdWx1IChITkwpIDc6NDggUE0KClRoYW5rcyBmb3IgZmx5aW5nIFVuaXRlZCEK"
+            }
+          },
+          {
+            "mimeType": "text/html",
+            "body": {
+              "data": "PGh0bWw-PGJvZHk-PHA-VGhpcyBpcyB0aGUgSFRNTCB2ZXJzaW9uIGFuZCBzaG91bGQgYmUgaWdub3JlZC48L3A-PC9ib2R5PjwvaHRtbD4"
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

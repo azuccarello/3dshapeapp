@@ -7,11 +7,13 @@ itinerary-aware recommendations for layovers and final destinations, researched 
 
 Built incrementally, with a check-in after each phase:
 
-1. [x] Gmail itinerary parser
+1. [x] Gmail itinerary parser + live client
 2. [x] Calendar cross-reference
-3. [ ] Recommendation engine (layovers + destinations)
-4. [ ] SMS delivery (Twilio)
-5. [ ] Scheduling / polling runner
+3. [x] Recommendation engine (layovers + destinations)
+4. [x] SMS delivery (Twilio)
+5. [x] Scheduling / polling runner (cadence + idempotent notification tracking)
+6. [ ] Wire it all together in `main.py`'s `check` command
+7. [ ] Live flight-status checks closer to departure/arrival
 
 Run tests with `python -m pytest` from this directory.
 
