@@ -1,0 +1,31 @@
+{
+  "code": "LAX",
+  "name": "Los Angeles International Airport",
+  "timezone": "America/Los_Angeles",
+  "transfer_minutes": 15,
+  "transfer_notes": "United domestic flights (incl. HNL) operate out of the connected Terminal 7/8 complex, gates 70-88. Same-complex gate-to-gate walk.",
+  "activities": [
+    {
+      "name": "LAX Art Program - Terminal 7 Gallery",
+      "location": "Terminal 7, Departures Level Gallery",
+      "why": "Rotating installations (currently 'Awake in the Dream' by Chenhung Chen and 'The View From Above') most people walk straight past. Free, ~15-20 min, turns dead time into an actual gallery stop.",
+      "link": "https://www.lawa.org/art-program/on-view-by-terminal/terminal-7"
+    }
+  ],
+  "coffee": [
+    {
+      "name": "Klatch Coffee",
+      "location": "Terminal 7, near Gate 71B",
+      "why": "Independent California roaster, not a chain -- their espresso won 'Best Espresso in the World' at the 2007 World Barista Championship. Globally-sourced beans, brewed to order. Closest thing to your home roasters you'll find past security.",
+      "link": "https://www.laxshopdine.com/directory/klatch-coffee-terminal-7-t7/"
+    }
+  ],
+  "food": [
+    {
+      "name": "Ashland Hill",
+      "location": "Terminal 7",
+      "why": "The OG Burger (Niman Ranch beef, sharp cheddar, brioche, house pickles) is a legitimately good burger, not airport-burger-shaped trash. Also runs a breakfast/brunch menu if your connection lands earlier in the day.",
+      "link": "https://www.laxshopdine.com/directory/ashland-hill-terminal-7-t7/"
+    }
+  ]
+}
