@@ -1,0 +1,45 @@
+[
+  {
+    "summary": "Gym",
+    "start": {"dateTime": "2026-08-13T07:30:00-07:00"},
+    "end": {"dateTime": "2026-08-13T08:45:00-07:00"}
+  },
+  {
+    "summary": "Gym",
+    "start": {"dateTime": "2026-08-14T07:30:00-07:00"},
+    "end": {"dateTime": "2026-08-14T08:45:00-07:00"}
+  },
+  {
+    "summary": "Hawaii Spartan Sprint 5K - Saturday, August 15th 2026",
+    "description": "Hawaii Spartan Sprint 5K - Saturday, August 15th 2026, 8/15/2026 10:00am EST",
+    "start": {"dateTime": "2026-08-15T13:00:00-07:00"},
+    "end": {"dateTime": "2026-08-15T20:00:00-07:00"}
+  },
+  {
+    "summary": "Gym",
+    "start": {"dateTime": "2026-08-17T07:30:00-07:00"},
+    "end": {"dateTime": "2026-08-17T08:45:00-07:00"}
+  },
+  {
+    "summary": "Gym",
+    "start": {"dateTime": "2026-08-18T07:30:00-07:00"},
+    "end": {"dateTime": "2026-08-18T08:45:00-07:00"}
+  },
+  {
+    "summary": "Gym",
+    "start": {"dateTime": "2026-08-19T07:30:00-07:00"},
+    "end": {"dateTime": "2026-08-19T08:45:00-07:00"}
+  },
+  {
+    "summary": "Bingo at Midtown Yacht Club (Bend, OR)",
+    "location": "Midtown Yacht Club, 1661 NE 4th St, Bend, 97701, United States",
+    "description": "Join us for Bingo at Midtown Yacht Club! 5 Rounds of Bingo for $5 Per Round. All Bingo proceeds will go towards Street Dog Hero. Food, drinks & adoptable dogs!",
+    "start": {"dateTime": "2026-08-19T18:00:00-07:00"},
+    "end": {"dateTime": "2026-08-19T20:00:00-07:00"}
+  },
+  {
+    "summary": "PAYDAY",
+    "start": {"date": "2026-08-21"},
+    "end": {"date": "2026-08-22"}
+  }
+]

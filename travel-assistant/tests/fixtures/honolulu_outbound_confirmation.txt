@@ -1,0 +1,17 @@
+United Airlines - Trip Confirmation
+
+Confirmation Number: AB12CD
+
+Passenger: ZUCCARELLO/ADI
+
+Flight 2126
+Tue, Aug 13, 2026
+Depart Redmond/Bend (RDM) 9:37 AM
+Arrive Los Angeles (LAX) 11:48 AM
+
+Flight 1170
+Tue, Aug 13, 2026
+Depart Los Angeles (LAX) 5:05 PM
+Arrive Honolulu (HNL) 7:48 PM
+
+Thanks for flying United!

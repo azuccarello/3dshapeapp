@@ -1,0 +1,94 @@
+{
+  "code": "waikiki",
+  "name": "Waikiki, Honolulu",
+  "timezone": "Pacific/Honolulu",
+  "coffee": [
+    {
+      "name": "Knots Coffee Roasters",
+      "location": "Queen Kapiolani Hotel, 150 Kapahulu Ave -- across from the Honolulu Zoo, ~10 min walk from central Waikiki",
+      "why": "Roasts in-house and sources from Big Island Coffee Roasters and Maui Coffee Roasters with actual origin info on the bag, not just a 'Kona blend' sticker. Open-air patio right on the path to the Zoo and beach -- closest thing to a Heart/Prince-style roastery you'll find in Waikiki proper.",
+      "link": "https://www.knotscoffee.com/"
+    },
+    {
+      "name": "Morning Glass Coffee",
+      "location": "2955 E Manoa Rd, Manoa -- 15-20 min drive/rideshare from Waikiki",
+      "why": "Worth the trip out of the tourist core: house-roasted, genuinely excellent espresso in a tucked-away residential neighborhood where actual locals hang out. Pair it with their breakfast menu (mac+cheese pancakes, breakfast burrito) and make it a whole outing rather than a coffee run.",
+      "link": "https://www.yelp.com/biz/morning-glass-coffee-caf%C3%A9-honolulu-2"
+    }
+  ],
+  "food": [
+    {
+      "name": "Da Cove Health Bar",
+      "location": "Near Kaimana Beach, base of Diamond Head -- ~20 min walk down the beach from central Waikiki",
+      "why": "The local consensus pick for acai bowls on Oahu -- small, always-busy spot with fresh fruit smoothies and wild-caught ahi wraps. Great pre- or post- Diamond Head stop, and a much better quick option than the smoothie stands lining Kalakaua.",
+      "link": "https://www.dacove.com/"
+    },
+    {
+      "name": "Hau Tree",
+      "location": "Kaimana Beach Hotel, 2863 Kalakaua Ave -- oceanfront, edge of Waikiki toward Diamond Head",
+      "why": "Tables right in the sand under a century-old hau tree with Diamond Head in view -- about as good as a breakfast setting gets here. Crab eggs benedict is the move. It's pricier and the food plays second fiddle to the setting, so treat this as the sit-down option when you've actually got time, not an everyday spot.",
+      "link": "https://www.kaimana.com/dine/hau-tree/"
+    },
+    {
+      "name": "Honolulu Burger Company",
+      "location": "2919 Kapiolani Blvd, Kaimuki -- ~10 min drive from Waikiki",
+      "why": "Grass-fed beef from family-owned Hawaii ranches, hand-cut fries, real milkshakes -- a legitimately good burger from a local company, not a tourist-trap burger shack. Worth the short drive when you want a burger that's actually worth it.",
+      "link": "https://honoluluburgerco.com/"
+    }
+  ],
+  "bars": [
+    {
+      "name": "Green Lady Cocktail Room",
+      "location": "White Sands Hotel, 431 Nohonani St, Waikiki",
+      "why": "Unmarked door flush with the bamboo wall left of the hotel entrance -- ask for 'Room 8.' Walk-ins only, open 8pm-1am, classic speakeasy vibe with creative cocktails ($16-20). The kind of place you'd only find if someone told you about it.",
+      "link": "https://www.honolulumagazine.com/green-lady-cocktail-room-waikiki/"
+    },
+    {
+      "name": "SKY Waikiki -- BACKBAR",
+      "location": "SKY Waikiki, 2270 Kalakaua Ave, rooftop level",
+      "why": "A hidden bar behind a wall inside SKY Waikiki's rooftop space -- started as an invite-only secret, now open Tue-Sun from 5pm. Good second stop after dinner if Green Lady's packed.",
+      "link": "https://www.honolulumagazine.com/sky-waikikis-backbar-serves-creative-cocktails-hidden-behind-a-wall/"
+    }
+  ],
+  "activities": [
+    {
+      "name": "Diamond Head Summit Trail (sunrise)",
+      "location": "Diamond Head State Monument -- ~10 min drive or scenic walk from Waikiki via Kapiolani Park",
+      "why": "20-30 min hike up a WWII-era crater to a 360-degree view of Waikiki and the south shore -- best before the heat and crowds. Reservations open 30 days out on recreation.gov and sunrise slots (6-7am) sell out within hours, so book this as soon as the trip is confirmed.",
+      "link": "https://www.hawaii-guide.com/oahu/hiking-trails/diamond-head-leahi-hiking-trail",
+      "book_ahead": "Reserve on recreation.gov starting 30 days before the visit date -- sunrise slots (6-7am) sell out within hours of opening."
+    },
+    {
+      "name": "Airbnb Experience -- Haku Lei Making",
+      "location": "Hosted locally, varies by host -- typically Waikiki/Honolulu area",
+      "why": "Small-group lesson on making a traditional Hawaiian flower crown with a local host, plus the cultural history behind it -- a genuine 'local friend teaches you something' experience instead of the souvenir-shop version.",
+      "link": "https://www.airbnb.com/s/Hawaii--United-States/experiences"
+    },
+    {
+      "name": "Kaka'ako Art District",
+      "location": "Kaka'ako neighborhood -- ~10 min drive from Waikiki",
+      "why": "Block after block of large-scale murals from the POW WOW Hawaii festival, plus indie galleries and coffee shops -- a completely different, art-school side of Honolulu that most Waikiki visitors never see.",
+      "link": "https://jessieonajourney.com/local-things-to-do-in-oahu-hawaii/"
+    }
+  ],
+  "free": [
+    {
+      "name": "Kuhio Beach Hula Show",
+      "location": "Kuhio Beach, near the Duke Kahanamoku statue, Waikiki",
+      "why": "Free Hawaiian music and hula under the stars, Tue/Thu/Sat evenings -- low-key, local-run, and right on the beach. Worth checking which of those days falls in the trip window.",
+      "link": "https://www.hawaii.com/blog/free-things-to-do-in-waikiki"
+    },
+    {
+      "name": "Hilton Hawaiian Village Friday Fireworks",
+      "location": "Duke Kahanamoku Lagoon / Beach, Waikiki",
+      "why": "Every Friday at 7:45pm, free to watch from the beach or lagoon area -- good excuse for an evening beach walk regardless of where you're staying.",
+      "link": "https://www.hawaii.com/blog/free-things-to-do-in-waikiki"
+    },
+    {
+      "name": "Sans Souci / Kaimana Beach sunset",
+      "location": "Sans Souci Beach Park, edge of Waikiki toward Diamond Head",
+      "why": "Quieter than the main Waikiki strip, popular with local families for evening swims and picnics, and a great low-key sunset spot with Diamond Head as the backdrop.",
+      "link": "https://www.hawaii.com/blog/free-things-to-do-in-waikiki"
+    }
+  ]
+}
